@@ -1,0 +1,48 @@
+.scrollit {
+    
+    overflow:scroll;
+    height:300px;
+    width: 450px;
+    
+}
+
+.totalCases{
+
+ margin-right: 60px;
+ 
+ 
+}
+
+.mainText{
+
+  font-family: 'Patua One', cursive;
+
+}
+
+.wrapper {
+  height: 300px !important;
+  }
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#778899; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#778899; 
+  }
+
+  
